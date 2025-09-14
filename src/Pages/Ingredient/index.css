@@ -1,0 +1,91 @@
+.ingredient-container {
+  padding: 16px;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.dish-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.dish-text {
+  flex: 1;
+}
+
+.dish-text h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.dish-text p {
+  font-size: 14px;
+  color: #555;
+  margin: 4px 0 0 0;
+}
+
+.dish-image-wrapper {
+  flex-shrink: 0;
+  margin-left: 12px;
+}
+
+.dish-img {
+  width: 140px;
+  height: 100px;
+  border-radius: 12px;
+  object-fit: cover;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.ingredients-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 4px;
+}
+
+.for-people {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.ingredients-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid #eee;
+}
+
+.ingredients-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 15px;
+}
+
+.ing-name {
+  color: #333;
+}
+
+.ing-qty {
+  color: #555;
+}

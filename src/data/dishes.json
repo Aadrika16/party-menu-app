@@ -1,0 +1,251 @@
+[
+  {
+    "categoryId": 1,
+    "mealType": "STARTER",
+    "type": "VEG",
+    "description": "Crispy fried vegetable spring rolls served with sweet chili sauce.",
+    "image": "https://res.cloudinary.com/doyaebals/image/upload/v1757850817/veg_spring_roll_yjro28.jpg",
+    "category": {
+      "id": 1,
+      "name": "Chinese",
+      "image": "https://res.cloudinary.com/doyaebals/image/upload/v1757850817/veg_spring_roll_yjro28.jpg",
+      "isRecommendedForMealSuggestion": true
+    },
+    "dishType": "SNACKS",
+    "forChefit": true,
+    "forParty": true,
+    "name": "Veg Spring Roll",
+    "id": 1,
+    "ingredients": [
+      { "name": "Cabbage", "quantity": "1 cup (shredded)" },
+      { "name": "Carrot", "quantity": "1 medium (grated)" },
+      { "name": "Spring roll sheets", "quantity": "6" },
+      { "name": "Oil", "quantity": "for deep frying" },
+      { "name": "Salt", "quantity": "to taste" }
+    ]
+  },
+  {
+    "categoryId": 2,
+    "mealType": "STARTER",
+    "type": "NON-VEG",
+    "description": "Juicy chicken wings marinated with spices and deep fried.",
+    "image": "https://res.cloudinary.com/doyaebals/image/upload/v1757850853/crispy_chicken_wings_djkgib.jpg",
+    "category": {
+      "id": 2,
+      "name": "Continental",
+      "image": "https://res.cloudinary.com/doyaebals/image/upload/v1757850853/crispy_chicken_wings_djkgib.jpg",
+      "isRecommendedForMealSuggestion": false
+    },
+    "dishType": "SNACKS",
+    "forChefit": true,
+    "forParty": true,
+    "name": "Crispy Chicken Wings",
+    "id": 2,
+    "ingredients": [
+      { "name": "Chicken wings", "quantity": "500 g" },
+      { "name": "Garlic paste", "quantity": "1 tbsp" },
+      { "name": "Chili powder", "quantity": "1 tsp" },
+      { "name": "Flour", "quantity": "1/2 cup" },
+      { "name": "Oil", "quantity": "for frying" }
+    ]
+  },
+  {
+    "categoryId": 3,
+    "mealType": "MAIN COURSE",
+    "type": "VEG",
+    "description": "Paneer cubes in spicy onion gravy with onions and capsicum cubes.",
+    "image": "https://res.cloudinary.com/doyaebals/image/upload/v1757850868/kadai_paneer_x042rc.jpg",
+    "category": {
+      "id": 3,
+      "name": "North Indian",
+      "image": "https://res.cloudinary.com/doyaebals/image/upload/v1757850868/kadai_paneer_x042rc.jpg",
+      "isRecommendedForMealSuggestion": true
+    },
+    "dishType": "CURRY",
+    "forChefit": true,
+    "forParty": true,
+    "name": "Kadhai Paneer",
+    "id": 3,
+    "ingredients": [
+      { "name": "Paneer", "quantity": "200 g" },
+      { "name": "Onion", "quantity": "2 medium" },
+      { "name": "Capsicum", "quantity": "1 medium" },
+      { "name": "Oil", "quantity": "2 tbsp" },
+      { "name": "Salt", "quantity": "to taste" }
+    ]
+  },
+  {
+    "categoryId": 4,
+    "mealType": "MAIN COURSE",
+    "type": "NON-VEG",
+    "description": "Fragrant basmati rice cooked with tender chicken and aromatic spices.",
+    "image": "https://res.cloudinary.com/doyaebals/image/upload/v1757850883/chicken_biryani_gtiuqg.jpg",
+    "category": {
+      "id": 4,
+      "name": "Hyderabadi",
+      "image": "https://res.cloudinary.com/doyaebals/image/upload/v1757850883/chicken_biryani_gtiuqg.jpg",
+      "isRecommendedForMealSuggestion": true
+    },
+    "dishType": "RICE",
+    "forChefit": true,
+    "forParty": true,
+    "name": "Chicken Biryani",
+    "id": 4,
+    "ingredients": [
+      { "name": "Basmati rice", "quantity": "2 cups" },
+      { "name": "Chicken", "quantity": "500 g" },
+      { "name": "Onion", "quantity": "2 large (sliced)" },
+      { "name": "Yogurt", "quantity": "1/2 cup" },
+      { "name": "Biryani masala", "quantity": "2 tbsp" }
+    ]
+  },
+  {
+    "categoryId": 5,
+    "mealType": "MAIN COURSE",
+    "type": "VEG",
+    "description": "Slow-cooked black lentils in creamy tomato-based gravy.",
+    "image": "https://res.cloudinary.com/doyaebals/image/upload/v1757849995/daal_yhcq7f.jpg",
+    "category": {
+      "id": 5,
+      "name": "Punjabi",
+      "image": "https://res.cloudinary.com/doyaebals/image/upload/v1757849995/daal_yhcq7f.jpg",
+      "isRecommendedForMealSuggestion": true
+    },
+    "dishType": "CURRY",
+    "forChefit": true,
+    "forParty": true,
+    "name": "Dal Makhani",
+    "id": 5,
+    "ingredients": [
+      { "name": "Black lentils (urad dal)", "quantity": "1 cup" },
+      { "name": "Kidney beans", "quantity": "1/4 cup" },
+      { "name": "Tomatoes", "quantity": "2 large (pureed)" },
+      { "name": "Cream", "quantity": "1/4 cup" },
+      { "name": "Butter", "quantity": "2 tbsp" }
+    ]
+  },
+  {
+    "categoryId": 6,
+    "mealType": "MAIN COURSE",
+    "type": "NON-VEG",
+    "description": "Tender chicken cooked in buttery tomato-based gravy.",
+    "image": "https://res.cloudinary.com/doyaebals/image/upload/v1757850897/butter_chicken_quco74.jpg",
+    "category": {
+      "id": 6,
+      "name": "North Indian",
+      "image": "https://res.cloudinary.com/doyaebals/image/upload/v1757850897/butter_chicken_quco74.jpg",
+      "isRecommendedForMealSuggestion": false
+    },
+    "dishType": "CURRY",
+    "forChefit": true,
+    "forParty": true,
+    "name": "Butter Chicken",
+    "id": 6,
+    "ingredients": [
+      { "name": "Chicken", "quantity": "500 g" },
+      { "name": "Tomato puree", "quantity": "1 cup" },
+      { "name": "Butter", "quantity": "3 tbsp" },
+      { "name": "Cream", "quantity": "1/4 cup" },
+      { "name": "Spices", "quantity": "to taste" }
+    ]
+  },
+  {
+    "categoryId": 7,
+    "mealType": "DESSERT",
+    "type": "VEG",
+    "description": "Soft fried dumplings soaked in sugar syrup.",
+    "image": "https://res.cloudinary.com/doyaebals/image/upload/v1757850927/gulab_jamun_ali21l.jpg",
+    "category": {
+      "id": 7,
+      "name": "Indian Sweets",
+      "image": "https://res.cloudinary.com/doyaebals/image/upload/v1757850927/gulab_jamun_ali21l.jpg",
+      "isRecommendedForMealSuggestion": false
+    },
+    "dishType": "SWEET",
+    "forChefit": true,
+    "forParty": true,
+    "name": "Gulab Jamun",
+    "id": 7,
+    "ingredients": [
+      { "name": "Khoya (mawa)", "quantity": "1 cup" },
+      { "name": "Flour", "quantity": "2 tbsp" },
+      { "name": "Sugar", "quantity": "1 cup" },
+      { "name": "Water", "quantity": "1 cup" },
+      { "name": "Oil", "quantity": "for frying" }
+    ]
+  },
+  {
+    "categoryId": 8,
+    "mealType": "DESSERT",
+    "type": "VEG",
+    "description": "Creamy Italian dessert with layers of mascarpone and coffee-soaked sponge.",
+    "image": "https://res.cloudinary.com/doyaebals/image/upload/v1757850940/tiramisu_mi0njc.jpg",
+    "category": {
+      "id": 8,
+      "name": "Italian",
+      "image": "https://res.cloudinary.com/doyaebals/image/upload/v1757850940/tiramisu_mi0njc.jpg",
+      "isRecommendedForMealSuggestion": true
+    },
+    "dishType": "SWEET",
+    "forChefit": true,
+    "forParty": true,
+    "name": "Tiramisu",
+    "id": 8,
+    "ingredients": [
+      { "name": "Mascarpone cheese", "quantity": "250 g" },
+      { "name": "Coffee", "quantity": "1 cup (strong)" },
+      { "name": "Sugar", "quantity": "1/2 cup" },
+      { "name": "Eggs", "quantity": "2 yolks" },
+      { "name": "Ladyfinger biscuits", "quantity": "12" }
+    ]
+  },
+  {
+    "categoryId": 9,
+    "mealType": "SIDES",
+    "type": "VEG",
+    "description": "Refreshing yogurt-based side dish with cucumber and spices.",
+    "image": "https://res.cloudinary.com/doyaebals/image/upload/v1757850946/c-raita_ngztpb.jpg",
+    "category": {
+      "id": 9,
+      "name": "Indian Sides",
+      "image": "https://res.cloudinary.com/doyaebals/image/upload/v1757850946/c-raita_ngztpb.jpg",
+      "isRecommendedForMealSuggestion": false
+    },
+    "dishType": "ACCOMPANIMENT",
+    "forChefit": true,
+    "forParty": true,
+    "name": "Cucumber Raita",
+    "id": 9,
+    "ingredients": [
+      { "name": "Yogurt", "quantity": "1 cup" },
+      { "name": "Cucumber", "quantity": "1 medium (grated)" },
+      { "name": "Cumin powder", "quantity": "1/2 tsp" },
+      { "name": "Salt", "quantity": "to taste" },
+      { "name": "Coriander leaves", "quantity": "for garnish" }
+    ]
+  },
+  {
+    "categoryId": 10,
+    "mealType": "SIDES",
+    "type": "VEG",
+    "description": "Crispy fried Indian bread served with curries.",
+    "image": "https://res.cloudinary.com/doyaebals/image/upload/v1757850953/poori_kl96ia.jpg",
+    "category": {
+      "id": 10,
+      "name": "North Indian",
+      "image": "https://res.cloudinary.com/doyaebals/image/upload/v1757850953/poori_kl96ia.jpg",
+      "isRecommendedForMealSuggestion": false
+    },
+    "dishType": "BREAD",
+    "forChefit": true,
+    "forParty": true,
+    "name": "Poori",
+    "id": 10,
+    "ingredients": [
+      { "name": "Wheat flour", "quantity": "2 cups" },
+      { "name": "Salt", "quantity": "1/2 tsp" },
+      { "name": "Water", "quantity": "as needed" },
+      { "name": "Oil", "quantity": "for frying" }
+    ]
+  }
+]

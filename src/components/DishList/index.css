@@ -1,0 +1,47 @@
+/* DishList container */
+.dish-list-container {
+  padding: 20px;
+}
+
+.dish-list-heading {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  text-align: center;
+  color: #333;
+}
+
+/* Grid layout for selected dishes */
+.dish-list-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+/* Empty state */
+.dish-list-empty {
+  font-size: 16px;
+  color: #777;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* Optional: highlight selected DishCard in list */
+.dish-list-grid .dish-card.selected {
+  border: 2px solid orange;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .dish-list-grid {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .dish-list-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+}

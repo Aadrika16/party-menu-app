@@ -1,0 +1,133 @@
+/* ✅ Summary Bar - Column Layout */
+.container { 
+  width: 100%; 
+  max-width: 1200px; 
+  margin: 0 auto; 
+  display: flex; 
+  flex-direction: 
+  column; 
+  justify-content: center; 
+  align-items: center; 
+  padding: 20px; 
+}
+
+
+h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.dish-grid {
+  width: 100%;
+}
+
+.cuisine-block {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.north-indian-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.north-indian-con h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.north-indian-image {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  color: #000;
+}
+
+.empty {
+  text-align: center;
+  font-size: 16px;
+  color: #888;
+  padding: 30px 0;
+}
+
+
+
+.summary-bar {
+
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  border-top: 1px solid #ddd;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+  padding: 15px 20px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;   /* stack items */
+  align-items: center;     /* make children take full width */
+  gap: 12px;
+}
+
+/* ✅ Total text */
+.summary-info {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: space-between;
+  background-color: #FFFAF4;
+  border-radius: 6px;
+  padding: 12px 15px;
+  gap: 10px;
+}
+
+.summary-info p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+}
+
+.selected-dishes-icon {
+  width: 25px;
+  height: 25px;
+}
+
+/* ✅ Continue button */
+.continue-btn {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 50%;
+  text-align: center;
+}
+
+.continue-btn:hover {
+  opacity: 0.9;
+}
+
+/* 📱 Mobile adjustment */
+@media (max-width: 600px) {
+  .summary-bar {
+    padding: 12px 15px;
+    width: 100%;
+  }
+
+  .summary-info p {
+    font-size: 14px;
+    width: 70%;
+  }
+
+  .continue-btn {
+    padding: 12px;
+    font-size: 15px;
+    width: 70%;
+  }
+}
